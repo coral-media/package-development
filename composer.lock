@@ -295,7 +295,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/doctrine-extensions",
-                "reference": "8cdd5723b4bda9460b467c5198f787673e7a2c3b"
+                "reference": "ea91597335a75cd9bf9dcb68861bf8d09dab5ca5"
             },
             "require": {
                 "doctrine/doctrine-bundle": "^2.5",
@@ -336,7 +336,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/framework-bundle",
-                "reference": "2ee15d02bf5bd743b6aa2bf353893de9611dfe33"
+                "reference": "f56f0b28bd037d43891eb10152d41934a1dd23f5"
             },
             "require": {
                 "coral-media/doctrine-extensions": "@dev",
@@ -382,7 +382,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/http-foundation",
-                "reference": "c36ca37c04c080ba25764961ad76a825a3941865"
+                "reference": "5f501ebe8a8792970876884c44b466c65800ade4"
             },
             "require": {
                 "ext-sodium": "*",
@@ -424,7 +424,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/security-bundle",
-                "reference": "7083c2c88caf8ee6b00aafad9e4d32b2a4809e1e"
+                "reference": "3813b3a6d5384da31293e6e75885e45660172196"
             },
             "require": {
                 "gesdinet/jwt-refresh-token-bundle": "^1.0",
