@@ -1,0 +1,24 @@
+api_platform:
+    title: 'Coral Media API Package Development'
+    description: 'The Coral Media API package development environment'
+    version: '0.0.1'
+
+    eager_loading:
+        force_eager: false
+
+    defaults:
+        pagination_client_enabled: true
+    collection:
+        pagination:
+            enabled_parameter_name: pagination
+
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json', 'application/ld+json']
+    swagger:
+        versions: [3]
+        api_keys:
+            apiKey:
+                name: Authorization
+                type: header
