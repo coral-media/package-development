@@ -18,6 +18,6 @@ return [
     Hautelook\AliceBundle\HautelookAliceBundle::class => ['dev' => true, 'test' => true],
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
     Gesdinet\JWTRefreshTokenBundle\GesdinetJWTRefreshTokenBundle::class => ['all' => true],
-    CoralMedia\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
-    CoralMedia\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
+    CoralMedia\Bundle\FrameworkBundle\CoralMediaFrameworkBundle::class => ['all' => true],
+    CoralMedia\Bundle\SecurityBundle\CoralMediaSecurityBundle::class => ['all' => true],
 ];
