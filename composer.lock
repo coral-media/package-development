@@ -424,7 +424,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/security-bundle",
-                "reference": "1d836497ed43eeb13dd4a1775c734f3619b5aec9"
+                "reference": "9225b757d833ee3d5dabf2808012974140c82444"
             },
             "require": {
                 "gesdinet/jwt-refresh-token-bundle": "^1.0",
