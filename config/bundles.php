@@ -20,4 +20,5 @@ return [
     Gesdinet\JWTRefreshTokenBundle\GesdinetJWTRefreshTokenBundle::class => ['all' => true],
     CoralMedia\Bundle\FrameworkBundle\CoralMediaFrameworkBundle::class => ['all' => true],
     CoralMedia\Bundle\SecurityBundle\CoralMediaSecurityBundle::class => ['all' => true],
+    CoralMedia\Bundle\PetClinicBundle\CoralMediaPetClinicBundle::class => ['all' => true],
 ];
