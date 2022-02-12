@@ -88,6 +88,13 @@
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "path",
+            "url": "./packages/pet-clinic-bundle",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "config": {
@@ -103,7 +110,8 @@
             "CoralMedia\\Bundle\\FrameworkBundle\\": "packages/framework-bundle/src/",
             "CoralMedia\\Bundle\\SecurityBundle\\": "packages/security-bundle/src/",
             "CoralMedia\\Component\\HttpFoundation\\": "packages/http-foundation/src/",
-            "CoralMedia\\Component\\Doctrine\\Extensions\\": "packages/doctrine-extensions/src/"
+            "CoralMedia\\Component\\Doctrine\\Extensions\\": "packages/doctrine-extensions/src/",
+            "CoralMedia\\Bundle\\PetClinicBundle\\": "packages/pet-clinic-bundle/src/"
         }
     },
     "autoload-dev": {
@@ -112,7 +120,8 @@
             "CoralMedia\\Bundle\\FrameworkBundle\\Test\\": "packages/framework-bundle/tests/",
             "CoralMedia\\Bundle\\SecurityBundle\\Test\\": "packages/security-bundle/tests/",
             "CoralMedia\\Component\\HttpFoundation\\Test\\": "packages/http-foundation/tests/",
-            "CoralMedia\\Component\\Doctrine\\Extensions\\Test\\": "packages/doctrine-extensions/tests/"
+            "CoralMedia\\Component\\Doctrine\\Extensions\\Test\\": "packages/doctrine-extensions/tests/",
+            "CoralMedia\\Bundle\\PetClinicBundle\\Test\\": "packages/pet-clinic-bundle/tests/"
         }
     },
     "replace": {
@@ -127,9 +136,6 @@
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
-        "pre-install-cmd": [
-            "@package-development"
-        ],
         "post-install-cmd": [
             "@auto-scripts"
         ],
