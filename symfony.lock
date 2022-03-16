@@ -37,6 +37,9 @@
     "coral-media/security-bundle": {
         "version": "dev-master"
     },
+    "coral-media/web-desktop-bundle": {
+        "version": "0.1.0"
+    },
     "doctrine/annotations": {
         "version": "1.13",
         "recipe": {

@@ -21,4 +21,5 @@ return [
     CoralMedia\Bundle\FrameworkBundle\CoralMediaFrameworkBundle::class => ['all' => true],
     CoralMedia\Bundle\SecurityBundle\CoralMediaSecurityBundle::class => ['all' => true],
     CoralMedia\Bundle\PetClinicBundle\CoralMediaPetClinicBundle::class => ['all' => true],
+    CoralMedia\Bundle\WebDesktopBundle\CoralMediaWebDesktopBundle::class => ['all' => true],
 ];

@@ -4,3 +4,5 @@
 
 security:
     resource: '@CoralMediaSecurityBundle/Resources/config/routes.yaml'
+web_desktop:
+    resource: '@CoralMediaWebDesktopBundle/Resources/config/routes.yaml'

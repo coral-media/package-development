@@ -7,6 +7,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-ctype": "*",
+        "ext-http": "*",
         "ext-iconv": "*",
         "ext-json": "*",
         "ext-openssl": "*",
@@ -18,6 +19,7 @@
         "coral-media/framework-bundle": "@dev",
         "coral-media/http-foundation": "@dev",
         "coral-media/security-bundle": "@dev",
+        "coral-media/web-desktop-bundle": "^0.1.0",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.5",
         "doctrine/doctrine-migrations-bundle": "^3.2",
@@ -77,6 +79,13 @@
         },
         {
             "type": "path",
+            "url": "./packages/web-desktop-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
             "url": "./packages/http-foundation",
             "options": {
                 "symlink": true
@@ -111,7 +120,8 @@
             "CoralMedia\\Bundle\\SecurityBundle\\": "packages/security-bundle/src/",
             "CoralMedia\\Component\\HttpFoundation\\": "packages/http-foundation/src/",
             "CoralMedia\\Component\\Doctrine\\Extensions\\": "packages/doctrine-extensions/src/",
-            "CoralMedia\\Bundle\\PetClinicBundle\\": "packages/pet-clinic-bundle/src/"
+            "CoralMedia\\Bundle\\PetClinicBundle\\": "packages/pet-clinic-bundle/src/",
+            "CoralMedia\\Bundle\\WebDesktopBundle\\": "packages/web-desktop-bundle/src/"
         }
     },
     "autoload-dev": {
@@ -121,7 +131,8 @@
             "CoralMedia\\Bundle\\SecurityBundle\\Test\\": "packages/security-bundle/tests/",
             "CoralMedia\\Component\\HttpFoundation\\Test\\": "packages/http-foundation/tests/",
             "CoralMedia\\Component\\Doctrine\\Extensions\\Test\\": "packages/doctrine-extensions/tests/",
-            "CoralMedia\\Bundle\\PetClinicBundle\\Test\\": "packages/pet-clinic-bundle/tests/"
+            "CoralMedia\\Bundle\\PetClinicBundle\\Test\\": "packages/pet-clinic-bundle/tests/",
+            "CoralMedia\\Bundle\\WebDesktopBundle\\Test\\": "packages/web-desktop-bundle/tests/"
         }
     },
     "replace": {
